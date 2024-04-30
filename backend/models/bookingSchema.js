@@ -7,11 +7,11 @@ const bookingSchema = new Schema({
     ref: "Flight",
     required: true,
   },
-  user: {
-    type: Schema.Types.ObjectId,
-    ref: "User",
-    required: true,
-  },
+  // user: {
+  //   type: Schema.Types.ObjectId,
+  //   ref: "User",
+  //   required: true,
+  // },
   seat: {
     type: String,
     required: true,
